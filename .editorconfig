@@ -1,0 +1,13 @@
+[*]
+end_of_line = lf
+charset = utf-8
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{js, jsx, ts, tsx, json, vue, htm, html, md, txt, py, sh, css, scss}]
+indent_size = 4
+max_line_length = 128
+
+[*.{yml, yaml, toml}]
+indent_size = 2

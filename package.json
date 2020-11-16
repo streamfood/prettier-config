@@ -1,0 +1,23 @@
+{
+    "name": "@streamfood/prettier-config",
+    "version": "1.0.0",
+    "description": "Shared base .prettierrc for Streamfood",
+    "author": "Streamfood <dev@streamfood.tv>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/streamfood/prettier-config.git"
+    },
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "files": [
+        "dist/index.js"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "prettier": "^2.1.2",
+        "prettier-stylelint": "^0.4.2"
+    }
+}
